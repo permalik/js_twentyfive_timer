@@ -1,0 +1,68 @@
+.page_wrap {
+  padding: 0 1rem;
+}
+
+/* timer container */
+.timer_container {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+  margin: 25vh auto;
+}
+
+/* timer readout */
+.timer_readout {
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
+  height: 25rem;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+/* timer message */
+.readout_message {
+  margin-bottom: 1rem;
+}
+
+/* timer clock */
+.timer_clock {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* minutes and seconds */
+input[type='text'] {
+  border-radius: 0.5rem;
+}
+
+.minutes,
+.seconds {
+  width: 8rem;
+}
+
+/* clock delimiter */
+.timer_clock span {
+  margin-top: 0.27rem;
+}
+
+/* start button */
+.start_button {
+  border-radius: 30px;
+  box-sizing: border-box;
+  width: 11rem;
+  height: 4rem;
+  margin: 1rem auto 1rem;
+}
+
+/* start button hover */
+.start_button:hover {
+  position: relative;
+  top: 0.1rem;
+  left: 0.1rem;
+  cursor: pointer;
+}

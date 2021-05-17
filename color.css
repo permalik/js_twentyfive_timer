@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(99, 99, 99);
+}
+
+/* timer readout */
+.timer_readout {
+  background-color: seashell;
+  border: 0.8rem double rgba(205, 92, 92, 0.87);
+  box-shadow: 0px 1px 2px 0px rgb(82, 82, 82), 0px 2px 6px 2px rgb(82, 82, 82);
+}
+
+input[type='text'] {
+  color: white;
+  background-color: #111;
+  border: none;
+}
+
+/* minutes and seconds counters */
+.minutes,
+.seconds {
+  color: white;
+  border: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+::-moz-placeholder {
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+/* clock delimiter */
+.clock_delimiter {
+  color: black;
+  animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* start button */
+.start_button {
+  color: ivory;
+  background-color: rgba(0, 191, 25, 0.822);
+  border: transparent;
+  box-shadow: 0px 1px 2px 0px rgb(82, 82, 82), 0px 2px 6px 2px rgb(82, 82, 82);
+}
+
+/* start button hover */
+.start_button:hover {
+  /* background-color: rgba(0, 184, 25, 0.774); */
+  opacity: 0.8;
+}

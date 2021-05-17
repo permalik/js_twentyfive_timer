@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Timer</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="color.css" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="page_wrap">
+        <div class="timer_container">
+          <div class="timer_readout">
+            <!-- display countdown message and clock -->
+            <p class="readout_message">Time Remaining</p>
+            <div class="timer_clock">
+              <input class="minutes" type="text" placeholder="00" />
+              <p class="clock_delimiter">:</p>
+              <input class="seconds" type="text" placeholder="00" />
+            </div>
+          </div>
+          <!-- button to begin timer -->
+          <button class="start_button">Start</button>
+        </div>
+      </div>
+    </main>
+    <script src="js_timer.js"></script>
+  </body>
+</html>
